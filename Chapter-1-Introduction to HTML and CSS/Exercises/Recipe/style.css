@@ -1,0 +1,59 @@
+/* 8 different css styles i used sir */
+/* 1. Style for body background and text color */
+body {
+    background-color: #babaf7;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Style for the main title */
+h1 {
+    text-align: center;
+    color: #000000;  /* Black color for the title */
+    margin-top: 20px;
+    font-size: 2.5em;
+}
+
+/* 3. Style for all section headings (h2) */
+h2 {
+    color: #000000;  /* black for subheadings */
+    font-size: 1.8em;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* 4. Style for the list of ingredients */
+ul {
+    list-style-type: square;
+    margin-left: 40px;
+}
+
+/* 5. Style for ordered list (method steps) */
+ol {
+    margin-left: 40px;
+    padding-left: 20px;
+}
+
+/* 6. Style for paragraphs */
+p {
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+/* 7. Style for the ingredients and method list items */
+li {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+/* 8. Style for the background color of the list */
+ul, ol {
+    background-color: #ffffff;  /* White background for lists */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
