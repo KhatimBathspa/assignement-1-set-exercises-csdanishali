@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Headings */
+h1 {
+    color: #2c3e50;
+}
+
+/* Image box */
+.image-container {
+    margin: 20px auto;
+    padding: 20px;
+    background: #faa0a0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+/* Image Styles */
+.image-style {
+    width: 400px;
+    height: 267px;
+    border-radius: 8px;
+    transition: filter 0.5s ease-in-out;
+}
+
+/* Hover Effect to Show Original Image */
+.image-style:hover {
+    filter: none;
+}
+
+/* Different Filters for Each Image */
+.image-container:nth-of-type(1) .image-style { /* Beach Image */
+    filter: brightness(70%) contrast(50%) saturate(150%);
+}
+
+.image-container:nth-of-type(2) .image-style { /* Scenery Image */
+    filter: sepia(80%) hue-rotate(20deg);
+}
+
+.image-container:nth-of-type(3) .image-style { /* Snowy Mountains Image */
+    filter: grayscale(80%) contrast(130%);
+}
+
+/* Links */
+a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #101214;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #e74c3c;
+}
+
+/* Copyright Info */
+p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #000000;
+}
